@@ -1,4 +1,4 @@
-package com.raval.polymath.techprimers.springboot.stockviewer.stockservice;
+package com.raval.polymath.techprimers.springboot.stockviewer.eurekaservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class StockServiceApplicationTests {
+public class EurekaServiceApplicationTests {
 
-  @Test
-  public void contextLoads() {
-  }
+	@Test
+	public void contextLoads() {
+	}
 
 }
