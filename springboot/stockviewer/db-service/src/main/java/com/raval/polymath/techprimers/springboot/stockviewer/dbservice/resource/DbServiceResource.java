@@ -37,4 +37,11 @@ public class DbServiceResource {
     return quoteRepository.save(listOfQuotes);
   }
 
+  @PostMapping("/delete/{userName}")
+  public List<Quote> addQuote(@PathVariable String userName){
+    List<Quote> listOfQuotes = quoteRepository.findByUserName(userName);
+    quoteRepository.delete(listOfQuotes);
+    return listOfQuotes;
+  }
+
 }
